@@ -1,28 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Recipe Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Student Recipe Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="recipes.html">Recipes</a>
-        <a href="categories.html">Categories</a>
-        <a href="popular.html">Popular</a>
-        <a href="new.html">New</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="login.html">Login</a>
-    </nav>
+    <header>
+        <nav class="glass-nav">
+            <ul>
+                <li class="nav-item active">Home</li>
+                <li class="nav-item">Recipe 1</li>
+                <li class="nav-item">Recipe 2</li>
+                <li class="nav-item">Recipe 3</li>
+                <li class="nav-item">Recipe 4</li>
+                <li class="nav-item">Rating</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <div class="hero">
-        <h1>Eat fresh & healthy on a budget!</h1>
-        <p>Welcome to our recipe blog. We focus on affordable meals and tips for students.</p>
-    </div>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Eat fresh & healthy</h1>
+                <p>Inexpensive, healthy, and perfect for college kitchens.</p>
+            </div>
+        </section>
 
+        <section class="reviews-section">
+            <div class="reviews-container">
+                
+                <div class="review-card">
+                    <div class="image-circle"><span>Image</span></div>
+                    <div class="card-body">
+                        <h3 class="recipe-title">Header<br>Subheading</h3>
+                        <div class="stars-box">
+                            <div class="star-row">★</div>
+                            <div class="star-row">★★</div>
+                            <div class="star-row">★★★</div>
+                        </div>
+                        <p class="review-text">“Perfect for a small dorm kitchen.”</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="image-circle"><span>Image</span></div>
+                    <div class="card-body">
+                        <h3 class="recipe-title">Heading<br>Subheading</h3>
+                        <div class="stars-box">
+                            <div class="star-row">★</div>
+                            <div class="star-row">★★</div>
+                            <div class="star-row">★★★</div>
+                        </div>
+                        <p class="review-text">“Super healthy and really filling”.</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="image-circle"><span>Image</span></div>
+                    <div class="card-body">
+                        <h3 class="recipe-title">Heading<br>Subheading</h3>
+                        <div class="stars-box">
+                            <div class="star-row">★</div>
+                            <div class="star-row">★★</div>
+                            <div class="star-row">★★★</div>
+                        </div>
+                        <p class="review-text">“Ready in ten minutes.”</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
