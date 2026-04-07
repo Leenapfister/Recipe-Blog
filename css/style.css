@@ -55,7 +55,7 @@ header {
 }
 
 .nav-item:hover, .nav-item.active {
-    background-color: oklch(75.053% 0.17907 58.273);
+    background-color: #ff8c00;
     color: white;
 }
 
