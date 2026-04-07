@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lora', serif;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     color: #333;
     overflow-x: hidden;
 }
@@ -55,20 +55,20 @@ header {
 }
 
 .nav-item:hover, .nav-item.active {
-    background-color: #ff8c00;
+    background-color: oklch(75.053% 0.17907 58.273);
     color: white;
 }
 
 /* Hero Section */
 .hero-section {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                images('Homepage.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(211, 113, 0, 0.4), rgba(227, 227, 227, 0.4)), 
+    center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .hero-content h1 {
