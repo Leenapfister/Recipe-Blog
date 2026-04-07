@@ -1,0 +1,124 @@
+/* Color Palette */
+:root {
+    --bg-dark: #fcfcfc;
+    --card-bg: #fcfcfc;
+    --accent-yellow: #ff8c00;
+    --text-gray: #333;
+    --text-white: #333;
+}
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.total-reviews {
+    text-align: right;
+}
+
+.total-reviews .label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+.total-reviews .count {
+    font-size: 1.8rem;
+    color: var(--accent-yellow);
+    font-weight: 700;
+}
+
+/* Column Header */
+.columns-header {
+    display: flex;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    color: var(--text-gray);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.col-date { width: 25%; text-align: left; }
+.col-review { width: 50%; text-align: center; }
+.col-user { width: 25%; text-align: right; }
+
+/* Review Card */
+.review-card {
+    background-color: var(--card-bg);
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    /* Inner shadows */
+    box-shadow: inset 4px 4px 8px #c7c6c6, 
+                inset -4px -4px 12px #ffffff;
+    margin-bottom: 25px;
+}
+
+.date-container {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
+.stars {
+    color: var(--accent-yellow);
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.comment {
+    margin: 0;
+    font-style: italic;
+    color: #cccccc;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+/* User Profile Layout */
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.username {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(145deg, #2a2a2a, #151515);
+    border-radius: 50%;
+    border: 1px solid #383838;
+}
