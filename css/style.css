@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lora', serif;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     color: #333;
     overflow-x: hidden;
 }
@@ -62,7 +62,7 @@ header {
 /* Hero Section */
 .hero-section {
     height: 100vh;
-    background: linear-gradient(rgba(211, 113, 0, 0.4), rgba(227, 227, 227, 0.4)), 
+    background: linear-gradient(oklch(64.762% 0.15617 57.28 / 0.4), rgba(227, 227, 227, 0.4)), 
     center center/cover;
     display: flex;
     justify-content: center;
