@@ -5,22 +5,32 @@
 }
 
 body {
-    font-family: 'Lora', serif;
-    color: #333;
+    font-family: 'DINPro';
+    color: black;
 }
 
 header {
     position: fixed;
-    top: 20px;
+    top: 15px;
     width: 100%;
     z-index: 1000;
     display: flex;
     justify-content: center;
 }
 
+.header-section {
+    font-family: 'DINPro';
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+}
+
 .glass-nav {
     background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50px;
@@ -30,25 +40,20 @@ header {
 
 .glass-nav ul {
     display: flex;
-    gap: 35px;
+    gap: 40px;
 }
 
-.nav-item {
-    padding: 10px 15px;
-    color:  #333;
-    font-weight: bold;
+a {
+    font-family: 'DINPro';
+    text-decoration: none;
+    padding: 20px 15px;
+    color:black;
+    font-style: normal;
     font-size: 11pt;
-    border-radius: 25px;
-    transition: 0.2s;
-}
-
-.nav-item:hover, .nav-item.active {
-    background-color: #55af1d;
-    color: white;
 }
 
 .hero-section {
-    min-height: 700px;
+    min-height: 815px;
     background-image: url('../images/homescreen.jpg');
     background-size: cover;
     background-position: center;
@@ -61,12 +66,13 @@ header {
 }
 
 .hero-content h1 {
-    font-family: 'Lora', serif;
-    font-size: 70px;
+    font-family: 'DINPro';
+    font-weight: 600;
+    font-size: 80px;
 }
 
 .reviews-section {
-    padding: 150px 20px;
+    padding: 50px 10px;
     display: flex;
     justify-content: center;
 }
@@ -79,13 +85,13 @@ header {
 }
 
 .review-card {
-    background: white;
+    background: #ffffff;
     width: 400px;
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.201);
+    transition: all 0.3s;
     margin-top: 60px;
     cursor: pointer;
 }
@@ -124,12 +130,11 @@ header {
 }
 
 .recipe-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
+    font-family: 'DINPro';
+    font-size: 18pt;
+    margin-bottom: 15px;
 }
 
-/* Sterne-Pyramide (1-2-3) */
 .stars-box {
     display: flex;
     flex-direction: column;
@@ -139,12 +144,12 @@ header {
 }
 
 .star-row {
-    font-size: 1.5rem;
-    line-height: 0.9;
-    letter-spacing: 4px;
+    font-size: 40px;
+    line-height: 0.7;
 }
 
 .review-text {
+    font-family: 'DINPro';
     font-style: italic;
-    color: #666;
+    color:black;
 }
