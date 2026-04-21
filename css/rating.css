@@ -22,7 +22,7 @@ body {
 
 .glass-nav ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .glass-nav a {
