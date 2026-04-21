@@ -1,0 +1,14 @@
+body {
+    font-family: 'DINPro';
+    color: black;
+}
+
+.header-section {
+    font-family: 'DINPro';
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+}
