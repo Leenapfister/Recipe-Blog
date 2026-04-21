@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Student Recipe Blog</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="style.css" rel="stylesheet">
+    <style type="text/css" media="all">
+        @import "css/index.css";
+    </style>
 </head>
 
 <body>
@@ -13,13 +13,13 @@
     <header>
         <nav class="glass-nav">
             <ul>
-                <li class="nav-item active">Home</li>
-                <li class="nav-item">Recipe 1</li>
-                <li class="nav-item">Recipe 2</li>
-                <li class="nav-item">Recipe 3</li>
-                <li class="nav-item">Recipe 4</li>
-                <li class="nav-item">Rating</li>
-                <li class="nav-item">Contact</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Recipe 1.html">Recipe 1</a></li>
+                <li><a href="Recipe 2.html">Recipe 1</a></li>
+                <li><a href="Recipe 3.html">Recipe 1</a></li>
+                <li><a href="Recipe 4.html">Recipe 1</a></li>
+                <li><a href="rating.html">Ratings</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -28,8 +28,9 @@
         <section class="hero-section">
             <div class="hero-content">
                 <h1>Eat fresh & healthy</h1>
-                <p>Inexpensive, healthy, and perfect for college kitchens.</p>
-                
+                <p>Welcome to our recipe blog for college students!<br> 
+                We focus on affordable meals and know from experience that students<br> 
+                often have limited access to everyday kitchen appliances.</p>
             </div>
         </section>
 
@@ -37,9 +38,10 @@
             <div class="reviews-container">
                 
                 <div class="review-card">
-                    <div class="image-circle"><span>Image</span></div>
+                    <a href="Recipe 1.html" class="recipe-card-link">
+                    <div class="image-circle"></div>
                     <div class="card-body">
-                        <h3 class="recipe-title">Header<br>Subheading</h3>
+                        <h3 class="recipe-title">Twisted Fruit Greek Salad</h3>
                         <div class="stars-box">
                             <div class="star-row">★</div>
                             <div class="star-row">★★</div>
@@ -47,37 +49,44 @@
                         </div>
                         <p class="review-text">“Perfect for a small dorm kitchen.”</p>
                     </div>
-                </div>
+                    </a></div>
 
                 <div class="review-card">
-                    <div class="image-circle"><span>Image</span></div>
+                    <a href="Recipe 2.html" class="recipe-card-link">
+                    <div class="image-circle"></div>
                     <div class="card-body">
-                        <h3 class="recipe-title">Heading<br>Subheading</h3>
+                        <h3 class="recipe-title">Eggsalad Sandwich</h3>
                         <div class="stars-box">
                             <div class="star-row">★</div>
                             <div class="star-row">★★</div>
                             <div class="star-row">★★★</div>
                         </div>
-                        <p class="review-text">“Super healthy and really filling”.</p>
+                        <p class="review-text">“Super easy and quick!”</p>
                     </div>
-                </div>
+                </a></div>
 
                 <div class="review-card">
-                    <div class="image-circle"><span>Image</span></div>
+                    <a href="Recipe 3.html" class="recipe-card-link">
+                    <div class="image-circle"></div>
                     <div class="card-body">
-                        <h3 class="recipe-title">Heading<br>Subheading</h3>
+                        <h3 class="recipe-title">Feta Pasta</h3>
                         <div class="stars-box">
                             <div class="star-row">★</div>
                             <div class="star-row">★★</div>
                             <div class="star-row">★★★</div>
                         </div>
-                        <p class="review-text">“Ready in ten minutes.”</p>
+                        <p class="review-text">“So delicious and easy to make.”</p>
                     </div>
-                </div>
-
+                </a></div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div clas="footer-content">
+            <p>&copy; 2026 Leena Pfister & Emma Senter | All rights reserved</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header-section {
+    font-family: 'DINPro';
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+}
+
+.glass-nav {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 10px 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.glass-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'DINPro';
+    color:black;
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+
+.total-reviews {
+    font-family: 'DINPro';
+    text-align: right;
+    color: #55af1d;
+}
+
+.total-reviews .count {
+    font-family: 'DINPro';
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.columns-header {
+    display: flex;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    color:black;
+    font-family: 'DINPro';
+    font-size: 10pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.col-date { width: 25%; text-align: left; }
+.col-review { width: 50%; text-align: center; }
+.col-user { width: 25%; text-align: right; }
+
+.review-card {
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 4px 4px 8px #c7c6c6, 
+                inset -4px -4px 12px #ffffff;
+    margin-bottom: 25px;
+}
+
+.date-container {
+    color:black;
+    font-size: 10pt;
+    font-style: Bold;
+    font-family: 'DINPro';
+}
+
+.stars {
+    color:  #55af1d;
+    font-size: 20pt;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.comment {
+    color:black;
+    font-size: 10pt;
+    font-family: 'DINPro';
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.username {
+    font-family: 'DINPro';
+    font-weight: 500;
+    font-size: 10pt;
+}
