@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 15px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: left;
+}
+
+.header-section {
+    font-family: 'DINPro';
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+}
+
+/*Nav-Bar*/
+.glass-nav {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 10px 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.glass-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.glass-nav a {
+    font-family: 'DINPro';
+    text-decoration: none;
+    padding: 10px 20px;
+    color:black;
+    font-style: normal;
+    font-size: 11pt;    
+    display: block;
+    transition: all 0.4s ease;
+}
+
+.glass-nav a:hover {
+    background-color: #55af1d;
+    color:#ffffff;
+    border-radius: 50px;
+
+}
+
+/*Recipe Title*/
+title {
+    position: relative;
+    font-family: 'DINPro';
+    color:black;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    border-bottom: 0.5px solid black;
+    margin-top: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+}
+
+/*Content*/
+content {
+    font-family: 'DINPro';
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+}
