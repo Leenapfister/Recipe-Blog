@@ -57,24 +57,18 @@ header {
 
 }
 
-/*Hero Section*/
-.hero-section {
-    min-height: 815px;
-    background-image: url('../images/Egg-Salad-Sandwich.jpg');
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.hero-content h1 {
+/*Recipe Title*/
+title {
+    position: relative;
     font-family: 'DINPro';
-    font-weight: 600;
-    font-size: 80px;
+    color:black;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    border-bottom: 0.5px solid black;
+    margin-top: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
 }
 
 /*Content*/
